@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2196f3;
+}
+.Navbar {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.Logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin: 24px 0 25px;
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+}
+.Logo span {
+  color: #000;
+}
+.d-flex {
+  display: flex;
+}
+.contact li a {
+  color: #757575;
+}
+.contact {
+  width: 333px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  margin: 32px auto;
+}
+.navbar li {
+  margin-right: 50px;
+}
+.navbar li a {
+  color: #212121;
+  transition: 0.2s;
+}
+.navbar {
+  margin-right: 305px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  margin: 32px auto;
+}
+
+.navbar a:hover {
+  color: #2196f3;
+}
+.navbar a::after {
+  display: none;
+  content: "";
+  background: #2196f3;
+  border-radius: 2px;
+  position: absolute;
+  /* width: 100px; */
+  height: 4px;
+}
+.navbar a:hover::after {
+  display: block;
+}
+.contact a:hover {
+  color: #2196f3;
+}
+.hero {
+  background: url(../images/heroBackground.jpg);
+  padding-bottom: 200px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 200px;
+}
+.btn {
+  font-family: "Roboto";
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /* width: 200px; */
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/* ===== GOAL SECTION ===== */
+.goal {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+}
+.card-img {
+  width: 270px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+  margin-bottom: 30px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.card-p {
+  width: 270px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+  letter-spacing: 0.03em;
+}
+
+/* ===== HOBBY SECTION ===== */
+.hobby {
+  padding-bottom: 92px;
+}
+.hobby-title {
+  margin-top: 94px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.card-type {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card-type-title {
+  width: 370px;
+  position: absolute;
+  background: rgba(47, 48, 58, 0.8);
+  margin-top: -75px;
+}
+.card-type-title p {
+  width: 400px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 27px 85px;
+  letter-spacing: 0.03em;
+}
+/* ===== OUR COMMAND ===== */
+.outCommand {
+  background: #f5f4fa;
+}
